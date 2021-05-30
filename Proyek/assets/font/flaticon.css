@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?8f6b06e274de5ac7e9e6c0b90ee8a68d") format("truetype"),
+url("./flaticon.woff?8f6b06e274de5ac7e9e6c0b90ee8a68d") format("woff"),
+url("./flaticon.woff2?8f6b06e274de5ac7e9e6c0b90ee8a68d") format("woff2"),
+url("./flaticon.eot?8f6b06e274de5ac7e9e6c0b90ee8a68d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?8f6b06e274de5ac7e9e6c0b90ee8a68d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-earth-globe-with-continents-maps:before {
+    content: "\f101";
+}
+.flaticon-global:before {
+    content: "\f102";
+}
+.flaticon-globe:before {
+    content: "\f103";
+}
